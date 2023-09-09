@@ -16,7 +16,7 @@ RUN apt-get update && \
     rm -rf /tmp/*
 
 # Switch back to the notebook user
-USER jovyan
+USER ayeddana
 
 # Install Python packages
 RUN pip install --no-cache-dir networkx scipy
