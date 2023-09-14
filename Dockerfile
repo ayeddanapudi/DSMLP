@@ -25,7 +25,7 @@ USER ayeddana
 
 RUN pip install --no-cache-dir networkx scipy
 RUN pip install --no-cache-dir git+https://github.com/nicolasdugue/DirectedLouvain.git@master
-RUN pip install --no-cache-dir git+https://github.com/pybind/pybind11.git@master
+RUN pip install --no-cache-dir git+https://github.com/pybind/pybind11.git@master 
 
 
 # Override command to disable running jupyter notebook at launch
