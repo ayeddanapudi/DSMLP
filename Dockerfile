@@ -19,6 +19,7 @@ USER root
 RUN apt-get update && apt-get install -y g++
 
 # 3) install packages using notebook user
+RUN useradd -u 1001 ayeddana
 USER ayeddana
 
 # RUN conda install -y scikit-learn
